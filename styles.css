@@ -1,0 +1,126 @@
+@import url(color.css);
+@import url(fonts.css);
+@media(min-width: 701px) {
+    .card {
+        width: 50%;
+        max-width: 660px;
+        display: flex;
+        flex-direction: row;
+
+    }
+    .hero-img {
+       height: 495px;
+       border-radius: 0.5rem  0 0 0.5rem;
+    }
+    .hero {
+        margin: 2.4rem 2.2rem;
+       
+    }
+    .hero-title {
+        margin: 1.6rem 0;
+    }
+    .price {
+        padding-top: 1.7rem;
+    }
+    .btn {
+        margin: 1.5rem 0;
+    }
+}
+@media (max-width: 700px) {
+    .card {
+        max-width: 375px;
+    }
+    .hero-img {
+        width: 100%;
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+    .hero {
+        margin: 1.7rem;
+    }
+    .hero-title {
+        margin: 1rem 0;
+    }
+    .price {
+        padding-top: 1.4rem;
+    }
+    .btn {
+        margin: 1rem 0;
+    }
+}
+
+
+body {
+    background-color: var(--Cream);
+}
+.card {
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 0.5rem;
+    background-color: var(--White);
+    
+}
+.hero {
+    font-family: Montserrat, sans-serif;
+    color: var(--Dark-grayish-blue); 
+}
+.hero-descr{
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.4rem;
+    font-size: 0.75rem;
+}
+.hero-title {
+ font-family: Fraunces, serif;
+ font-weight: 700;
+ color: var(--Very-dark-blue);
+ font-size: 2rem;
+ 
+ letter-spacing: 0.1rem;
+ line-height: 2.2rem;
+}
+.hero-content {
+    line-height: 1.64rem;
+    letter-spacing: 0.07rem;
+    font-size: 0.94rem;
+}
+
+.price {
+   display: flex;
+   flex-direction: row;
+} 
+
+.price_new {
+    color: var(--Dark-cyan);
+     font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+.price-old {
+   text-decoration: line-through;
+   text-underline-position: above;
+   font-size: 0.9rem;
+   padding-left: 1.25rem;
+   padding-top: 0.75rem;
+   margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: var(--Dark-cyan);
+    color: var(--White);
+    border: 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+    width: 100%;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem;  
+    
+
+}
+button:active, button:hover {
+    cursor: pointer;
+}
+.cart-icon {
+    padding-right: 0.5rem;
+    width: 1.1rem;
+}
