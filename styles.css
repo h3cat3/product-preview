@@ -2,14 +2,15 @@
 @import url(fonts.css);
 @media(min-width: 701px) {
     .card {
-        width: 50%;
+        width: 40%;
         max-width: 660px;
         display: flex;
         flex-direction: row;
 
     }
     .hero-img {
-       height: 495px;
+       height: 100%;
+       max-height: 495px;
        border-radius: 0.5rem  0 0 0.5rem;
     }
     .hero {
@@ -54,7 +55,7 @@ body {
 }
 .card {
     width: 90%;
-    margin: 5% auto;
+    margin: 8rem auto;
     border-radius: 0.5rem;
     background-color: var(--White);
     
